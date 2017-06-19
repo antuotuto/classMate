@@ -28,6 +28,10 @@
       </div>
     </footer>
 
+    <div class="end">
+
+    </div>
+
   </div>
 </template>
 
@@ -126,7 +130,7 @@ export default {
     width:100%;
     position: relative;
     header{
-      height:70px;
+      height:50px;
       width:100%;
       background: #3f51b5;
       position: fixed;
@@ -135,8 +139,8 @@ export default {
       z-index: 50;
       p{
         text-align: center;
-        font-size: 22px;
-        line-height: 70px;
+        font-size: 18px;
+        line-height: 50px;
         letter-spacing: 3px;
         color:#fff;
       }
@@ -148,7 +152,6 @@ export default {
     footer{
       padding: 15px;
       padding-top: 90px;
-      height:100%;
       width:100%;
       width:1200px;
       margin: 0 auto;
@@ -159,8 +162,8 @@ export default {
         margin-bottom: 15px;
         position: relative;
         padding-bottom: 40px;
+        display: inline-block;
         margin-left: 20px;
-        float: left;
         border-radius: 3px;
         overflow: hidden;
         button{
@@ -204,6 +207,11 @@ export default {
           bottom: 15px;
         }
       }
+    }
+    .end{
+      background: #293646;
+      height:250px;
+      width:100%;
     }
   }
 }

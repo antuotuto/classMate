@@ -207,8 +207,8 @@ export default {
     }
     .btn {
       position: fixed;
-      top: 15px;
-      right: 15px;
+      top: 5px;
+      right: 5px;
       width: 40px;
       height: 40px;
       line-height: 40px;
