@@ -9,6 +9,7 @@ import talk from '@/pages/talk'
 import talking from '@/pages/talking'
 import home from '@/pages/home'
 
+
 Vue.use(Router)
 
 export default new Router({
@@ -48,5 +49,6 @@ export default new Router({
       name: 'home',
       component: home
     }
+
   ]
 })
